@@ -14,10 +14,10 @@ a {
 	color: white;
 	padding: 0.2em 1.5em;
 	border-right: 1px solid blue;
-	/*background-color: blue;*/
 	text-align: center;
 	margin: auto;
 	width: 15em;
+	border: 1px solid #0000FF;
 }
 
 footer {
@@ -27,6 +27,7 @@ footer {
 
 .format {
 	background-color: beige;
+	color: blue;
 }
 
 p {
@@ -38,7 +39,7 @@ a:visited {
 	color: purple;
 }
 
-a:hover, a:visited:hover {
+a:hover {
 	color: red;
 	background: blue;
 }
